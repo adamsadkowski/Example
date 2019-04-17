@@ -13,9 +13,20 @@ body {
   max-width: 1140px;
   padding: 0 20px;
   margin: 0 auto;
+  position: relative;
 }
 
 /* navigation */
+nav {
+  position: absolute;
+}
+
+h3 {
+  color: #cc8c7b;
+  position: relative;
+  margin: auto;
+}
+
 /* Splash */
 /* Services */
 /* Portfolio */
