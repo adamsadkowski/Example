@@ -1,3 +1,4 @@
+/* Variables */
 /*global*/
 *, *::before, *::after {
   box-sizing: border-box;
@@ -7,27 +8,103 @@ body {
   margin: 0;
   line-height: 1.7;
   font-size: 16px;
+  font-family: "Lato", sans-serif;
 }
 
 .container {
   max-width: 1140px;
-  padding: 0 20px;
-  margin: 0 auto;
-  position: relative;
 }
 
 /* navigation */
-nav {
-  position: absolute;
+.navigation {
+  background: #191970;
 }
 
-h3 {
-  color: #cc8c7b;
+.name {
+  color: gold;
+  font-style: oblique;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #9ACD32;
+}
+
+ul {
+  margin: 20px 0 30px 0;
+  padding: 0;
+}
+
+ul > li {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  list-style-type: none;
+  margin-right: 75px;
   position: relative;
-  margin: auto;
+}
+
+ul > li:last-of-type {
+  margin-right: 0;
+}
+
+ul > li > ul {
+  display: none;
+  position: absolute;
+  background: #ffffff;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 12px;
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+ul > li:hover ul {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+ul ul li {
+  margin: 0 0 12px 0;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 24px;
+  width: 100%;
 }
 
 /* Splash */
+.splash {
+  background-image: url(https://i.postimg.cc/fyjxZkNm/architecture-beach-building-258154.jpg);
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.title {
+  margin: auto;
+  padding-top: 10%;
+  text-align: center;
+  color: #9ACD32;
+  font-family: "Luckiest Guy", cursive;
+  font-size: 72px;
+  letter-spacing: 0.5em;
+}
+
+.subtitle {
+  text-align: center;
+  color: #ffffff;
+  word-spacing: 0.6em;
+  letter-spacing: 0.3em;
+}
+
+.title-2 {
+  color: gold;
+  font-size: 35px;
+}
+
 /* Services */
 /* Portfolio */
 /* Footer */
