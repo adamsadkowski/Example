@@ -23,11 +23,19 @@ body {
 .name {
   color: gold;
   font-style: oblique;
+  font-size: 42px;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
 }
 
 .menu a {
   text-decoration: none;
   color: #9ACD32;
+  font-weight: bold;
+  font-variant: small-caps;
+  transition: all 0.5s;
 }
 
 ul {
@@ -41,6 +49,11 @@ ul > li {
   list-style-type: none;
   margin-right: 75px;
   position: relative;
+  padding: 5px 0;
+}
+
+ul > li a:hover {
+  color: gold;
 }
 
 ul > li:last-of-type {
@@ -108,4 +121,31 @@ ul ul li {
 /* Services */
 /* Portfolio */
 /* Footer */
+/* Media */
+@media (max-width: 992px) {
+  .name {
+    -webkit-margin-before: 1em;
+            margin-block-start: 1em;
+    -webkit-margin-after: 1em;
+            margin-block-end: 1em;
+  }
+  .title {
+    font-size: 28px;
+  }
+  .menu {
+    text-align: center;
+  }
+  ul > li {
+    margin-right: 62px;
+  }
+  ul > li:last-of-type {
+    margin-right: 62px;
+  }
+  ul > li {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+}
 /*# sourceMappingURL=style.css.map */

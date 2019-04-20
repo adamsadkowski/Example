@@ -31,11 +31,17 @@ body{
 .name{
     color: gold;
     font-style: oblique;
+    font-size: 42px;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
 .menu a{
     text-decoration: none;
     color: $green;
+    font-weight: bold;
+    font-variant: small-caps;
+    transition: all 0.5s;
 }
 
 ul{
@@ -48,6 +54,11 @@ ul > li{
     list-style-type: none;
     margin-right: 75px;
     position: relative;
+    padding: 5px 0;
+}
+
+ul > li a:hover{
+    color: gold;
 }
 
 ul > li:last-of-type{
@@ -116,3 +127,32 @@ ul ul li{
 
 /* Footer */
 
+/* Media */
+
+@media (max-width: 992px) {
+    .name{
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+    }
+    
+    .title{
+        font-size: 28px;
+    }
+
+    .menu {
+        text-align: center;
+    }
+
+    ul > li {
+        margin-right: 62px;
+    }
+
+    ul > li:last-of-type{
+        margin-right: 62px;
+    }
+
+    ul > li {
+        display: flex;
+        flex-direction: column;
+    }
+}
