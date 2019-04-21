@@ -136,6 +136,28 @@ ul ul li{
 
 /* Portfolio */
 
+.portfolio{
+    text-align: center;
+    background: #FFFACD;
+}
+
+.card{
+    margin: auto;
+    max-width: 340px;
+    overflow: hidden;
+    padding-right: 0;
+}
+
+.card img{
+    object-fit: cover;
+    height: 250px;
+}
+
+.description{
+    background: #ffffff;
+    margin-top: -25px;
+}
+
 /* Footer */
 
 /* Media */
