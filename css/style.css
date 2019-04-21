@@ -16,17 +16,21 @@ body {
   font-size: 32px;
   border: 2px solid;
   border-radius: 50%;
-  padding: 20px;
-  line-height: 30px;
+  line-height: 60px;
+  width: 60px;
+  height: 60px;
 }
 
-.social {
-  color: #9ACD32;
+.social-icon i {
+  background-color: #9ACD32;
+  color: #ffffff;
   font-size: 32px;
   border: 2px solid;
   border-radius: 50%;
-  padding: 20px;
-  line-height: 30px;
+  line-height: 60px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
 }
 
 .title {
