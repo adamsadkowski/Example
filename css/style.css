@@ -24,17 +24,17 @@ body {
 .social-icon i {
   background-color: #9ACD32;
   color: #ffffff;
-  font-size: 32px;
+  font-size: 25px;
   border: 2px solid;
   border-radius: 50%;
-  line-height: 60px;
-  width: 60px;
-  height: 60px;
+  line-height: 52px;
+  width: 52px;
+  height: 52px;
   text-align: center;
   margin-right: 25px;
 }
 
-.social-icon:last-of-type {
+.social-icon:last-of-type i {
   margin-right: 0;
 }
 
@@ -176,20 +176,15 @@ ul ul li {
 
 /* Footer */
 .footer {
+  margin: auto;
   padding: 20px 0;
   text-align: center;
 }
 
 .icons {
-  text-align: center;
-  margin-left: 28px;
-}
-
-.social-icon {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: end;
-      justify-content: flex-end;
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin: auto;
 }
 
 /* Media */
