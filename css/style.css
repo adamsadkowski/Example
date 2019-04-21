@@ -21,6 +21,10 @@ body {
 }
 
 .name {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
   color: gold;
   font-style: oblique;
   font-size: 42px;
