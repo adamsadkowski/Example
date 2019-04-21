@@ -11,9 +11,13 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-.container {
-  margin-right: auto;
-  margin-left: auto;
+.icon-service i {
+  color: #9ACD32;
+  font-size: 32px;
+  border: 2px solid;
+  border-radius: 50%;
+  padding: 20px;
+  line-height: 30px;
 }
 
 .title {
@@ -124,6 +128,10 @@ ul ul li {
 }
 
 /* Services */
+.services {
+  text-align: center;
+}
+
 /* Portfolio */
 /* Footer */
 /* Media */
