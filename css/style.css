@@ -20,6 +20,15 @@ body {
   line-height: 30px;
 }
 
+.social {
+  color: #9ACD32;
+  font-size: 32px;
+  border: 2px solid;
+  border-radius: 50%;
+  padding: 20px;
+  line-height: 30px;
+}
+
 .title {
   margin: auto;
   padding-top: 10%;
