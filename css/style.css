@@ -32,6 +32,12 @@ body {
   height: 52px;
   text-align: center;
   margin-right: 25px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.social-icon i:hover {
+  background-color: #191970;
 }
 
 .social-icon:last-of-type i {
