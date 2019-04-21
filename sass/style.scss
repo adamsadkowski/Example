@@ -39,6 +39,11 @@ body{
     width: 60px;
     height: 60px;
     text-align: center;
+    margin-right: 25px;
+}
+
+.social-icon:last-of-type{
+    margin-right: 0;
 }
 
 .title{
@@ -172,6 +177,21 @@ ul ul li{
 }
 
 /* Footer */
+
+.footer{
+    padding: 20px 0;
+    text-align: center;
+}
+
+.icons{
+    text-align: center;
+    margin-left: 28px;
+}
+
+.social-icon{
+    display: flex;
+    justify-content: flex-end;
+}
 
 /* Media */
 
